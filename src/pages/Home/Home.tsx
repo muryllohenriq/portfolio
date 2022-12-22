@@ -1,7 +1,15 @@
+import Banner from "../../components/Banner/Banner";
+import "./Home.css"
+
 function Home() {
     return (
         <>
-            <h1>Home</h1>
+            <Banner/>           
+            <div>
+                <h1>
+                    Home
+                    </h1>
+            </div>
         </>
     )
 }
