@@ -1,7 +1,23 @@
+import Header from "../../components/Header/Header";
+import Hero from "../../components/Hero/Hero";
+
 function Home() {
     return (
         <>
-            <h1 className="text-orange-600">Home</h1>
+            <Header/>
+            {/* Hero */}
+            <section id="hero">
+            <Hero />
+            </section>
+            {/* About */}
+
+            {/* Experience */}
+
+            {/* Skills */}
+
+            {/* Project */}
+
+            {/* Contact Me */}
         </>
     )
 }
