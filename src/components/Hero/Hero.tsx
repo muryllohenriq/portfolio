@@ -1,7 +1,6 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from '../BackgroundCircles/BackgroundCircles'
-import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -27,18 +26,18 @@ export default function Hero({ }: Props) {
                 </h1>
 
                 <div className='pt-5'>
-                    <Link to={"#about"}>
+                    <a href={"#about"}>
                     <button className='heroButton'>Sobre</button>
-                    </Link>
-                    <Link to={"#experience"}>
+                    </a>
+                    <a href={"#experience"}>
                     <button className='heroButton'>Experiência</button>
-                    </Link>
-                    <Link to={"#skills"}>
+                    </a>
+                    <a href={"#skills"}>
                     <button className='heroButton'>Habilidades</button>
-                    </Link>
-                    <Link to={"#projects"}>
+                    </a>
+                    <a href={"#projects"}>
                     <button className='heroButton'>Projetos</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>
