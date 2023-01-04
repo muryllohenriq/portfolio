@@ -37,13 +37,6 @@ function Home() {
                     <Contact />
                 </section>
 
-                <a href="#hero">
-                    <footer className="sticky bottom-5 w-full cursor-pointer">
-                        <div className="flex items-center justify-center">
-                            <ArrowLongUpIcon className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"/>
-                        </div>
-                    </footer>
-                </a>
             </div>
         </>
     )
