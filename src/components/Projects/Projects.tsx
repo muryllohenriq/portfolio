@@ -37,6 +37,10 @@ const Projects = (props: Props) => {
                                 </span>{' '}
                                 UPS clone
                             </h4>
+                            
+                            <div className="flex items-center space-x-2 justify-center">
+                                <img className="h-10 w-10" src="https://camo.githubusercontent.com/1f14c9c472b21cf8790a4fb6914be3a3181e957ecc2b397775f06a989d20cb37/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f637373332d6f726967696e616c2d776f72646d61726b2e737667" alt="" />
+                            </div>
 
                             <p className="text-lg text-center md:text-left">
                                 É utilizado o react com typescript na criação da interface, o axios para conectar a api, redux para gerenciar os estados da aplicação, styled-components na estilização. Utilizamos também da metodologia kanban para controlar o fluxo do processo.
