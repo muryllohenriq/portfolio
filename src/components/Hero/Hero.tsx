@@ -1,4 +1,3 @@
-import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from '../BackgroundCircles/BackgroundCircles'
 
@@ -25,7 +24,7 @@ export default function Hero({ }: Props) {
                     <Cursor cursorColor='#F7AB0A' />
                 </h1>
 
-                <div className='pt-5'>
+                <div className='pt-5 max-[428px]:grid max-[428px]:grid-cols-2'>
                     <a href={"#about"}>
                     <button className='heroButton'>Sobre</button>
                     </a>

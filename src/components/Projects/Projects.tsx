@@ -12,7 +12,7 @@ const Projects = (props: Props) => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
             className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+            <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
                 Projects
             </h3>
 
@@ -29,9 +29,10 @@ const Projects = (props: Props) => {
                             viewport={{ once: true }}
                             src="https://avatars.githubusercontent.com/u/105292489?v=4"
                             alt=""
+                            className='xl:w-64 xl:h-64 xl:mt-16 -mt-44'
                         />
-                        <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-                            <h4 className="text-4xl font-semibold text-center">
+                        <div className="space-y-5 px-0 md:px-10 max-[320px]:pt-20 max-w-6xl">
+                            <h4 className="text-3xl max-[320px]:text-2xl font-semibold text-center">
                                 <span className="underline decoration-[#F7AB0A]/50">
                                     Case Study {i + 1} of {projects.length}:
                                 </span>{' '}
@@ -42,7 +43,7 @@ const Projects = (props: Props) => {
                                 <img className="h-10 w-10" src="https://camo.githubusercontent.com/1f14c9c472b21cf8790a4fb6914be3a3181e957ecc2b397775f06a989d20cb37/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f637373332d6f726967696e616c2d776f72646d61726b2e737667" alt="" />
                             </div>
 
-                            <p className="text-lg text-center md:text-left">
+                            <p className="text-lg text-center md:text-left max-[428px]:w-80">
                                 É utilizado o react com typescript na criação da interface, o axios para conectar a api, redux para gerenciar os estados da aplicação, styled-components na estilização. Utilizamos também da metodologia kanban para controlar o fluxo do processo.
                             </p>
                         </div>
@@ -50,7 +51,7 @@ const Projects = (props: Props) => {
                 ))}
             </div>
 
-            <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
+            <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[400px] -skew-y-12" />
         </motion.div>
     )
 }
