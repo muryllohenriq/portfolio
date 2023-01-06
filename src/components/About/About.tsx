@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import foto2 from "../../assets/foto-2.jpg"
 
 type Props = {}
 
@@ -25,11 +26,11 @@ function About({ }: Props) {
                     x: 0,
                 }}
                 viewport={{ once: true }}
-                src='https://pbs.twimg.com/profile_images/1608638352839827456/MdkF13Mx_400x400.jpg'
+                src={foto2}
                 className='max-[320px]:mt-24 max-[320px]:w-28 max-[320px]:h-28 md:mb-0 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-64 md:h-80 md:ml-20 xl:w-[400px] xl:h-[400px] xl:ml-32'
             />
             <div className='space-y-5 px-0 md:px-10 min-[360px]:-mt-32'>
-                <h4 className='text-2xl max-[360px]:text-xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background</h4>
+                <h4 className='text-2xl max-[360px]:text-xl font-semibold'>Here is a <span className='underline decoration-[#D72638]/50'>little</span> background</h4>
                 <p className='text-base text-justify md:w-96 md:h-40 xl:w-4/5'>
                     Olá, sou o Muryllo, dev Full-Stack com especialidade em front. Gosto de desenvolver sites com designs bonitos, modernos e que me sinto confortável
                 </p>

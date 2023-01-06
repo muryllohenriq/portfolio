@@ -30,24 +30,24 @@ const Contact = (props: Props) => {
             <div className="flex flex-col space-y-4 mt-20">
                 <h4 className="text-3xl font-semibold text-center max-[320px]:hidden max-[360px]:text-2xl max-[360px]:w-80 max-[360px]:mx-auto">
                     I have got just what you need.{" "}
-                    <span className="decoration-[#F7AB0A]/50 underline">
+                    <span className="decoration-[#D72638]/50 underline">
                         Lets Talk.
                     </span>
                 </h4>
 
                 <div className="space-y-3 max-[320px]:space-y-1">
                     <div className="flex items-center space-x-5 justify-center">
-                        <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+                        <PhoneIcon className="text-[#D72638] h-7 w-7 animate-pulse" />
                         <p className="text-xl">64-996959519</p>
                     </div>
 
                     <div className="flex items-center space-x-5 justify-center">
-                        <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+                        <EnvelopeIcon className="text-[#D72638] h-7 w-7 animate-pulse" />
                         <p className="text-xl">muryllo.henrique@hotmail.com</p>
                     </div>
 
                     <div className="flex items-center space-x-5 justify-center">
-                        <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+                        <MapPinIcon className="text-[#D72638] h-7 w-7 animate-pulse" />
                         <p className="text-xl">Catalão, Goiás</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const Contact = (props: Props) => {
                     <input {...register('subject')} placeholder="Subject" className="contactInput max-[320px]:h-14" type="text" />
 
                     <textarea {...register('message')} placeholder="Message" className="contactInput resize-none max-[320px]:h-14" />
-                    <button type="submit" className="bg-[#F7AB0A] py-5 max-[428px]:py-3 max-[320px]:py-2 px-10 rounded-md text-black font-bold text-lg">Submit</button>
+                    <button type="submit" className="bg-[#D72638] py-5 max-[428px]:py-3 max-[320px]:py-2 px-10 rounded-md text-black font-bold text-lg">Submit</button>
                 </form>
             </div>
         </div>
