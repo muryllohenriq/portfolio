@@ -1,10 +1,7 @@
-import React from 'react'
 import { SocialIcon } from "react-social-icons"
 import { motion } from 'framer-motion'
 
-type Props = {}
-
-export default function Header({ }: Props) {
+export function Header() {
     return (
         <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
             <motion.div
@@ -25,14 +22,17 @@ export default function Header({ }: Props) {
                 <SocialIcon url="https://www.linkedin.com/in/muryllohenrique/"
                     fgColor='gray'
                     bgColor='transparent'
+                    target={"_blank"}               
                 />
-                <SocialIcon url="https://www.linkedin.com/in/muryllohenrique/"
+                <SocialIcon url="https://github.com/muryllohenriq"
                     fgColor='gray'
                     bgColor='transparent'
+                    target={"_blank"}
                 />
-                <SocialIcon url="https://www.linkedin.com/in/muryllohenrique/"
+                <SocialIcon url="https://api.whatsapp.com/send?phone=5564996959519"
                     fgColor='gray'
                     bgColor='transparent'
+                    target={"_blank"}
                 />
             </motion.div>
 

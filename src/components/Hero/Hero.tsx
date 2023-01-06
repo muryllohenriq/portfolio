@@ -2,9 +2,7 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from '../BackgroundCircles/BackgroundCircles'
 import foto1 from "../../assets/foto-1.jpg"
 
-type Props = {}
-
-export default function Hero({ }: Props) {
+export function Hero() {
     const [text, count] = useTypewriter({
         words: [
             "Developer",
