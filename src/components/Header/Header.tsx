@@ -51,14 +51,14 @@ export function Header() {
             transition={{
                 duration: 1.5,
             }}
-            className='flex flex-row items-center text-gray-300 cursor-pointer'>
+            className='flex flex-row items-center text-[#878D9B] cursor-pointer'>
                 <SocialIcon
                     className='cursor-pointer'
                     network='email'
                     fgColor='gray'
                     bgColor='transparent'
                     />
-                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Entre em contato</p>
+                <p className='uppercase hidden md:inline-flex text-sm text-[#878D9B]'>Entre em contato</p>
             </motion.div>
                     </a>
         </header>

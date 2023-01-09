@@ -8,7 +8,7 @@ export function About() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
         className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-            <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>
+            <h3 className='absolute top-20 uppercase tracking-[20px] text-[#878D9B] text-2xl'>
                 Sobre
             </h3>
             <motion.img
@@ -28,7 +28,7 @@ export function About() {
                 className='max-[320px]:mt-24 max-[320px]:w-28 max-[320px]:h-28 md:mb-0 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-64 md:h-80 md:ml-20 xl:w-[400px] xl:h-[400px] xl:ml-32'
             />
             <div className='space-y-5 px-0 md:px-10 min-[360px]:-mt-32'>
-                <h4 className='text-2xl max-[360px]:text-xl font-semibold'>Um <span className='underline decoration-[#D72638]/50'>pouco</span> sobre mim</h4>
+                <h4 className='text-2xl max-[360px]:text-xl font-semibold'>Um <span className='underline decoration-[#D72638]/70'>pouco</span> sobre mim</h4>
                 <p className='text-base text-justify md:w-96 md:h-40 xl:w-4/5'>
                     Olá, sou o Muryllo, dev Full-Stack com especialidade em front. Gosto de desenvolver sites com designs bonitos, modernos e que me sinto confortável
                 </p>

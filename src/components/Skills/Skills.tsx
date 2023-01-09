@@ -7,9 +7,9 @@ export function Skills() {
     return (
         <div 
         className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
-            <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>Habilidades</h3>
+            <h3 className='absolute top-20 uppercase tracking-[20px] text-[#878D9B] text-2xl'>Habilidades</h3>
 
-            <h3 className='absolute top-32 uppercase tracking-[3px] text-gray-500 text-sm'>
+            <h3 className='absolute top-32 uppercase tracking-[3px] text-[#878D9B] text-sm'>
                 Hover over a skill for current proficiency
             </h3>
 

@@ -10,7 +10,7 @@ export function Projects() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
             className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-            <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+            <h3 className="absolute top-20 uppercase tracking-[20px] text-[#878D9B] text-2xl">
                 Projetos
             </h3>
 
@@ -31,7 +31,7 @@ export function Projects() {
                         />
                         <div className="space-y-5 px-0 md:px-10 max-[320px]:pt-20 max-w-6xl">
                             <h4 className="text-3xl max-[320px]:text-2xl font-semibold text-center">
-                                <span className="underline decoration-[#D72638]/50">
+                                <span className="underline decoration-[#D72638]/70">
                                     Case Study {i + 1} of {projects.length}:
                                 </span>{' '}
                                 UPS clone

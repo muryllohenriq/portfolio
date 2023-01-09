@@ -24,7 +24,7 @@ export function ExperienceCard() {
             </div>
             <p className='uppercase py-2 text-gray-300'>Started work... - Ended...</p>
 
-            <ul className='list-disc space-y-2 ml-5 text-lg max-h-96 overflow-y-scroll pr-5 max-[428px]:hidden scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A]/80'>
+            <ul className='list-disc space-y-2 ml-5 text-lg max-h-96 overflow-y-scroll pr-5 max-[428px]:hidden scrollbar-thin scrollbar-track-black scrollbar-thumb-[#fafafa]/80'>
                 <li>Summary points</li>
                 <li>Summary points</li>
                 <li>Summary points</li>

@@ -21,14 +21,14 @@ export function Contact() {
 
     return (
         <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-            <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+            <h3 className="absolute top-20 uppercase tracking-[20px] text-[#878D9B] text-2xl">
                 Contato
             </h3>
 
             <div className="flex flex-col space-y-4 mt-20">
                 <h4 className="text-3xl font-semibold text-center max-[320px]:hidden max-[360px]:text-2xl max-[360px]:w-80 max-[360px]:mx-auto">
                     I have got just what you need.{" "}
-                    <span className="decoration-[#D72638]/50 underline">
+                    <span className="decoration-[#D72638]/70 underline">
                         Lets Talk.
                     </span>
                 </h4>
