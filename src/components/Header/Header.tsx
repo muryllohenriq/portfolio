@@ -20,17 +20,17 @@ export function Header() {
              }}
              className='flex flex-row items-center'>
                 <SocialIcon url="https://www.linkedin.com/in/muryllohenrique/"
-                    fgColor='gray'
+                    fgColor='#BFBFBF'
                     bgColor='transparent'
                     target={"_blank"}               
                 />
                 <SocialIcon url="https://github.com/muryllohenriq"
-                    fgColor='gray'
+                    fgColor='#BFBFBF'
                     bgColor='transparent'
                     target={"_blank"}
                 />
                 <SocialIcon url="https://api.whatsapp.com/send?phone=5564996959519"
-                    fgColor='gray'
+                    fgColor='#BFBFBF'
                     bgColor='transparent'
                     target={"_blank"}
                 />
@@ -51,14 +51,14 @@ export function Header() {
             transition={{
                 duration: 1.5,
             }}
-            className='flex flex-row items-center text-[#878D9B] cursor-pointer'>
+            className='flex flex-row items-center text-[#BFBFBF] cursor-pointer'>
                 <SocialIcon
                     className='cursor-pointer'
                     network='email'
-                    fgColor='gray'
+                    fgColor='#BFBFBF'
                     bgColor='transparent'
                     />
-                <p className='uppercase hidden md:inline-flex text-sm text-[#878D9B]'>Entre em contato</p>
+                <p className='uppercase hidden md:inline-flex text-sm text-[#BFBFBF]'>Entre em contato</p>
             </motion.div>
                     </a>
         </header>
