@@ -24,7 +24,7 @@ export function Skills() {
                 <Skill SkillIcon={SiBootstrap} level='90%' skillName='Bootstrap'/>
                 <Skill SkillIcon={SiTailwindcss} level='90%' skillName='Tailwind css'/>
                 <Skill SkillIcon={SiStyledcomponents} level='90%' skillName='styled-components'/>
-                <Skill SkillIcon={IoLogoSass} level='50%' skillName='Sass'/>
+                <Skill SkillIcon={IoLogoSass} level='80%' skillName='Sass'/>
                 <Skill SkillIcon={SiMysql} level='50%' skillName='MySQL'/>
             </div>
         </div>

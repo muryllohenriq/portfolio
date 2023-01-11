@@ -35,7 +35,7 @@ export function ExperienceCard({cover, job, company, skill, time, summaryPoint}:
 
             <ul className='list-disc space-y-2 ml-5 text-lg max-h-96 overflow-y-scroll pr-5 max-[428px]:hidden scrollbar-thin scrollbar-track-black scrollbar-thumb-[#fafafa]/80'>
             {summaryPoint.map((item, i) => {
-               return <li key={i}>{summaryPoint[i]}</li>
+               return <li key={item}>{summaryPoint[i]}</li>
             })}
             </ul>
         </div>

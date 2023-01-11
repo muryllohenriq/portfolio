@@ -15,7 +15,7 @@ export function Projects() {
 
             <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80">
                 {projects.map((project, i) => (
-                    <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                    <div key={project} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                         <motion.img
                             initial={{
                                 y: -300,
@@ -47,8 +47,6 @@ export function Projects() {
                     </div>
                 ))}
             </div>
-
-            <div className="w-full absolute top-[30%] bg-[#D72638]/10 left-0 h-[400px] -skew-y-12" />
         </motion.div>
     )
 }

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+
 type Props = {
   SkillIcon: React.ElementType,
   level: string,
@@ -10,16 +12,25 @@ export function Skill({ SkillIcon, level, skillName }: Props) {
   return (
     <>
       <abbr title={skillName}>
-        <div className='group relative flex cursor-pointer'>
-          <CustomTag className=' border border-[#878D9B] object-cover w-20 h-20 max-[320px]:w-16 max-[320px]:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
-          <div className="absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-black h-20 w-20 max-[320px]:w-16 max-[320px]:h-16  z-0">
-            <div className="flex items-center justify-center">
-              <p className='text-2xl font-bold text-[#D72638]'>
-                {level}
-              </p>
+        <motion.div
+        whileInView={{ scale: [0, 1], opacity: [0, 1] }}
+        transition={{ duration: 0.5, ease: 'easeInOut' }}
+        >
+          <motion.div
+          whileInView={{ opacity: 1 }}
+          whileHover={{ scale: 1.2 }}
+          transition={{ duration: 0.3, type: 'tween' }}
+           className='group relative flex cursor-pointer'>
+            <CustomTag className='object-cover w-20 h-20 max-[320px]:w-16 max-[320px]:h-16' />
+            <div className="absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-[#050505] h-20 w-20 max-[320px]:w-16 max-[320px]:h-16  z-0">
+              <div className="flex items-center justify-center">
+                <p className='text-2xl font-bold text-[#D72638]'>
+                  {level}
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </abbr>
     </>
   )
