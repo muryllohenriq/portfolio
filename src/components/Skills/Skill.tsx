@@ -18,11 +18,11 @@ export function Skill({ SkillIcon, level, skillName }: Props) {
         >
           <motion.div
           whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.2 }}
+          whileHover={{ scale: 1.3 }}
           transition={{ duration: 0.3, type: 'tween' }}
            className='group relative flex cursor-pointer'>
-            <CustomTag className='object-cover w-20 h-20 max-[320px]:w-16 max-[320px]:h-16' />
-            <div className="absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-[#050505] h-20 w-20 max-[320px]:w-16 max-[320px]:h-16  z-0">
+            <CustomTag className='object-cover w-16 h-16' />
+            <div className="absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-[#050505] h-16 w-16 z-0">
               <div className="flex items-center justify-center">
                 <p className='text-2xl font-bold text-[#D72638]'>
                   {level}
