@@ -1,7 +1,8 @@
+import { AiFillEye, AiFillGithub } from 'react-icons/ai'
 import { motion } from 'framer-motion'
 
 export function Projects() {
-    const projects = [1, 2, 3, 4, 5];
+    const projects = [1, 2, 3];
 
     return (
         <motion.div
@@ -28,6 +29,28 @@ export function Projects() {
                             alt=""
                             className='xl:w-64 xl:h-64 xl:mt-16 -mt-44'
                         />
+
+                        <a href="" target='_blank'>
+                            <motion.div
+                            whileInView={{ scale: [0, 1] }}
+                            whileHover={{ scale: [1, 0.9]}}
+                            transition={{ duration: 0.25 }}
+                            className=''
+                            >
+                            < AiFillEye />
+                            </motion.div>
+                        </a>
+                        <a href="" target='_blank'>
+                            <motion.div
+                            whileInView={{ scale: [0, 1] }}
+                            whileHover={{ scale: [1, 0.9]}}
+                            transition={{ duration: 0.25 }}
+                            className=''
+                            >
+                            < AiFillGithub />
+                            </motion.div>
+                        </a>
+
                         <div className="space-y-5 px-0 md:px-10 max-[320px]:pt-20 max-w-6xl">
                             <h4 className="text-3xl max-[320px]:text-2xl font-semibold text-center">
                                 <span className="underline decoration-[#D72638]/70">
