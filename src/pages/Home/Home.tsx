@@ -5,6 +5,7 @@ import { Experience } from "../../components/Experience/Experience";
 import { Skills } from "../../components/Skills/Skills";
 import { Projects } from "../../components/Projects/Projects";
 import { Contact } from "../../components/Contact/Contact";
+import { Testimonials } from "../../components/Testimonials/Testimonials";
 
 function Home() {
     return (
@@ -30,6 +31,10 @@ function Home() {
 
                 <section id="projects" className="snap-start">
                     <Projects />
+                </section>
+
+                <section id="testimonials" className="snap-start">
+                    <Testimonials />
                 </section>
 
                 <section id="contact" className="snap-start">

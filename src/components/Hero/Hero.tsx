@@ -36,6 +36,9 @@ export function Hero() {
                     <a href={"#projects"}>
                     <button className='heroButton'>Projetos</button>
                     </a>
+                    <a href={"#testimonials"}>
+                    <button className='heroButton'>Recomendações</button>
+                    </a>
                 </div>
             </div>
         </div>

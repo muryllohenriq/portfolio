@@ -22,7 +22,7 @@ export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary }:
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className='w-[270px] flex justify-center items-center flex-col m-8 p-4 rounded-[0.5rem] bg-almost-black text-BFBFBF cursor-pointer transition-[all_0.3s_ease] hover:shadow-[0_0_25px_#D72638] max-[320px]:mt-[130px]'>
+                className='w-[270px] flex justify-center items-center flex-col m-8 p-4 rounded-[0.5rem] bg-almost-black text-BFBFBF transition-[all_0.3s_ease] cursor-pointer hover:shadow-[0_0_25px_#D72638] max-[320px]:mt-[130px]'>
                 <div className='flex justify-center items-center w-[100%] h-[230px] relative'>
                     <img
                         src={cover}

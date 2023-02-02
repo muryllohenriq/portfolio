@@ -27,9 +27,9 @@ export function Contact() {
 
             <div className="flex flex-col space-y-4 mt-20">
                 <h4 className="text-3xl font-semibold text-center max-[320px]:hidden max-[360px]:text-2xl max-[360px]:w-80 max-[360px]:mx-auto">
-                    I have got just what you need.{" "}
+                    Eu tenho o que você precisa.{" "}
                     <span className="decoration-[#D72638]/70 underline">
-                        Lets Talk.
+                        Vamos trocar uma ideia.
                     </span>
                 </h4>
 
@@ -62,7 +62,7 @@ export function Contact() {
                     <input {...register('subject')} placeholder="Subject" className="contactInput max-[320px]:h-14" type="text" />
 
                     <textarea {...register('message')} placeholder="Message" className="contactInput resize-none max-[320px]:h-14" />
-                    <button type="submit" className="bg-[#D72638] py-5 max-[428px]:py-3 max-[320px]:py-2 px-10 rounded-md text-black font-bold text-lg">Submit</button>
+                    <button type="submit" className="bg-[#D72638] py-5 max-[428px]:py-3 max-[320px]:py-2 px-10 rounded-md text-black font-bold text-lg">Enviar</button>
                 </form>
             </div>
         </div>

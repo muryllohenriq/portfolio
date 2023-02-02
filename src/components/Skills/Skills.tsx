@@ -10,7 +10,7 @@ export function Skills() {
             <h3 className='absolute top-20 uppercase tracking-[20px] text-[#BFBFBF] text-2xl'>Habilidades</h3>
 
             <h3 className='absolute top-32 uppercase tracking-[3px] text-[#BFBFBF] text-sm'>
-                Hover over a skill for current proficiency
+                Passe o mouse em cima de uma skill para saber a minha proficiência e o seu nome.
             </h3>
 
             <div className='grid grid-cols-3 gap-8 mt-36 max-[320px]:grid-cols-4 xl:pt-24'>
