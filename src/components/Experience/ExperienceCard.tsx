@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 type Props = {
-    cover: string
+    cover: string;
     job: string;
     company: string;
     skill: string;
