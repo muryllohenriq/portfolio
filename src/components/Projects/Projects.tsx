@@ -1,4 +1,5 @@
 import { AiFillEye, AiFillGithub } from 'react-icons/ai'
+import { SiReact, SiTypescript, SiTailwindcss, SiBootstrap } from 'react-icons/si'
 import { motion } from 'framer-motion'
 
 export function Projects() {
@@ -18,34 +19,69 @@ export function Projects() {
                 <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80">
                     {projects.map((project, i) => (
                         <div key={project} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-                            <div>
-                                <motion.img
-                                    initial={{
-                                        y: -300,
-                                        opacity: 0,
-                                    }}
-                                    transition={{ duration: 1.2 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    src="https://avatars.githubusercontent.com/u/105292489?v=4"
-                                    alt=""
-                                    className='xl:w-64 xl:h-64 xl:mt-16 -mt-44'
-                                />
+                            <motion.div
+                                initial={{
+                                    y: -300,
+                                    opacity: 0,
+                                }}
+                                transition={{ duration: 1.2 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                className='w-[270px] flex justify-center items-center flex-col m-8 p-4 rounded-[0.5rem] bg-almost-black text-BFBFBF cursor-pointer transition-[all_0.3s_ease] hover:shadow-[0_0_25px_#D72638] max-[320px]:mt-[130px]'>
+                                <div className='flex justify-center items-center w-[100%] h-[230px] relative'>
+                                    <img
+                                        src="https://avatars.githubusercontent.com/u/105292489?v=4"
+                                        alt=""
+                                        className='w-[100%] h-[100%] rounded-[0.5rem] object-cover'
+                                    />
 
-                            </div>
-
-                            <div className="space-y-5 px-0 md:px-10 max-[320px]:pt-20 max-w-6xl">
-                                <h4 className="text-3xl max-[320px]:text-2xl font-semibold text-center">
-                                    <span className="underline decoration-[#D72638]/70">
-                                        Case Study {i + 1} of {projects.length}:
-                                    </span>{' '}
-                                    UPS clone
-                                </h4>
-
-                                <div className="flex items-center space-x-2 justify-center">
-                                    <img className="h-10 w-10" src="https://camo.githubusercontent.com/1f14c9c472b21cf8790a4fb6914be3a3181e957ecc2b397775f06a989d20cb37/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f637373332d6f726967696e616c2d776f72646d61726b2e737667" alt="" />
+                                    <motion.div
+                                        whileHover={{ opacity: [0, 1] }}
+                                        transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
+                                        className='flex justify-center items-center absolute top-0 left-0 bottom-0 right-0 w-[100%] h-[100%] bg-almost-black rounded-[0.5rem] opacity-0 transition-[all_0.3s_ease]'
+                                    >
+                                        <a href="" target='_blank'>
+                                            <motion.div
+                                                whileInView={{ scale: [0, 1] }}
+                                                whileHover={{ scale: [1, 0.9] }}
+                                                transition={{ duration: 0.25 }}
+                                                className='flex justify-center items-center w-[50px] h-[50px] rounded-[50%] bg-almost-black text-white m-4 font-extrabold cursor-pointer transition-[all_0.3s_ease]'
+                                            >
+                                                < AiFillEye className='w-[50%] h-[50%]' />
+                                            </motion.div>
+                                        </a>
+                                        <a href="" target='_blank'>
+                                            <motion.div
+                                                whileInView={{ scale: [0, 1] }}
+                                                whileHover={{ scale: [1, 0.9] }}
+                                                transition={{ duration: 0.25 }}
+                                                className='flex justify-center items-center w-[50px] h-[50px] rounded-[50%] bg-almost-black text-white m-4 font-extrabold cursor-pointer transition-[all_0.3s_ease]'
+                                            >
+                                                < AiFillGithub className='w-[50%] h-[50%]' />
+                                            </motion.div>
+                                        </a>
+                                    </motion.div>
                                 </div>
 
+                                <div className='p-2 w-[100%] flex justify-center items-center relative flex-col'>
+                                    <div className='flex justify-center items-center absolute p-[0.5rem_1rem] rounded-[10px] bg-black -top-[25px]'>
+                                        <p className='text-1xl'>E-commerce</p>
+                                    </div>
+
+                                    <h4 className='flex justify-center mt-4 leading-6 text-2xl font-semibold underline decoration-[#D72638]/70'>Shopping</h4>
+
+                                    <div className="flex mt-[20px] max-[320px]:hidden">
+                                    <SiReact className="h-10 w-10 mx-[10px]"/>
+                                    <SiTypescript className="h-10 w-10 mx-[10px]"/>
+                                    <SiTailwindcss className="h-10 w-10 mx-[10px]"/>
+                                    <SiBootstrap className="h-10 w-10 mx-[10px]"/>
+                                    </div>
+                                    
+                                </div>
+
+                            </motion.div>
+
+                            <div className="space-y-5 px-0 md:px-10 max-[320px]:pt-20 max-[428px]:hidden max-w-6xl">
                                 <p className="text-lg text-center md:text-left max-[428px]:w-80">
                                     É utilizado o react com typescript na criação da interface, o axios para conectar a api, redux para gerenciar os estados da aplicação, styled-components na estilização. Utilizamos também da metodologia kanban para controlar o fluxo do processo.
                                 </p>
