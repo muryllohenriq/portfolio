@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import { ExperienceCard } from './ExperienceCard'
 import gamaIcon from '../../assets/gama-icon.png'
+import duChefLogo from '../../assets/duChef-logo.svg'
+import iecLogo from '../../assets/iec-logo.png'
 
 export function Experience() {
     return (
@@ -14,10 +16,10 @@ export function Experience() {
             </h3>
 
             <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80'>
-                <ExperienceCard cover={gamaIcon} job={"Dev Full-Stack"} company={"Gama Academy"} skill="js,ts,html,css,styledcomponents,bootstrap,sass,react,redux,jest,nodejs,mysql,git,github,figma" time={"22/06/2022 - 05/12/2022"} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
-                <ExperienceCard cover='https://avatars.githubusercontent.com/u/105292489?v=4' job={"Dev Front-End"} company={"DuChef"} skill="js,html" time={"Inicio... - Término..."} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
-                <ExperienceCard cover='https://avatars.githubusercontent.com/u/105292489?v=4' job={"Freelancer"} company={"Me, Myself and I"} skill="js,html" time={"Inicio... - Término..."} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
-                <ExperienceCard cover='https://avatars.githubusercontent.com/u/105292489?v=4' job={"Voluntário"} company={"IEC"} skill="js,html" time={"Inicio... - Término..."} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
+                <ExperienceCard cover={gamaIcon} job={"Dev Full-Stack"} company={"Gama Academy"} skill="js,ts,vite,html,css,styledcomponents,bootstrap,sass,react,redux,jest,nodejs,mysql,git,github,figma" time={"22/06/2022 - 05/12/2022"} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
+                <ExperienceCard cover={duChefLogo} job={"Dev Front-End"} company={"DuChef"} skill="ts,react,redux,vite,styledcomponents,bootstrap,git" time={"01/11/2022 - o momento"} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
+                <ExperienceCard cover='https://images.pexels.com/photos/4069292/pexels-photo-4069292.jpeg?auto=compress&cs=tinysrgb&w=600' job={"Freelancer"} company={"Me, Myself and I"} skill="js,ts,vite,nextjs,html,css,tailwind,styledcomponents,bootstrap,sass,react,redux,vue,nodejs,mysql,sqlite,prisma,git,figma" time={"05/12/2022 - o momento"} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
+                <ExperienceCard cover={iecLogo} job={"Voluntário"} company={"IEC"} skill="ts,vite,react,styledcomponents,git" time={"07/12/2022 - o momento"} summaryPoint={["summarypoint", "SummaryPoints", "oi", "hello"]}/>
             </div>
         </motion.div>
     )
