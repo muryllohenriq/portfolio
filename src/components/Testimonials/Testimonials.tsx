@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper'
-import { RiSingleQuotesL, RiSingleQuotesR } from 'react-icons/ri'
+import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 import 'swiper/css'
 
 export function Testimonials() {
@@ -17,7 +17,7 @@ export function Testimonials() {
                 <h3 className="absolute top-20 uppercase tracking-[20px] text-[#BFBFBF] text-2xl">
                     Recomendações
                 </h3>
-                <RiSingleQuotesL size={40} />
+                <RiDoubleQuotesL size={20} />
                 <div className='text-center w-3/4'>
 
                     <Swiper
@@ -45,7 +45,7 @@ export function Testimonials() {
                     </Swiper>
 
                 </div>
-                <RiSingleQuotesR size={40} />
+                <RiDoubleQuotesR size={20} />
             </motion.div>
         </>
 

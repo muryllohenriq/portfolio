@@ -9,9 +9,11 @@ type Props = {
     name: string;
     skills: Array<React.ElementType>;
     summary: string;
+    shadowColor: string;
+    underlineColor: string;
 }
 
-export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary }: Props) {
+export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary, shadowColor, underlineColor }: Props) {
     return (
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
             <motion.div
@@ -22,7 +24,7 @@ export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary }:
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className='w-[270px] flex justify-center items-center flex-col m-8 p-4 rounded-[0.5rem] bg-almost-black text-BFBFBF transition-[all_0.3s_ease] cursor-pointer hover:shadow-[0_0_25px_#D72638] max-[320px]:mt-[130px]'>
+                className={`w-[270px] flex justify-center items-center flex-col m-8 p-4 rounded-[0.5rem] bg-almost-black text-BFBFBF transition-[all_0.3s_ease] cursor-pointer ${shadowColor} max-[320px]:mt-[130px]`}>
                 <div className='flex justify-center items-center w-[100%] h-[230px] relative'>
                     <img
                         src={cover}
@@ -64,7 +66,7 @@ export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary }:
                         <p className='text-1xl'>{tag}</p>
                     </div>
 
-                    <h4 className='flex justify-center mt-4 leading-6 text-2xl font-semibold underline decoration-[#D72638]/70'>{name}</h4>
+                    <h4 className={`flex justify-center mt-4 leading-6 text-2xl font-semibold underline ${underlineColor}`}>{name}</h4>
 
                     <div className="flex mt-[20px] max-[320px]:hidden">
                         {
