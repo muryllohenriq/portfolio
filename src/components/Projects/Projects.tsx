@@ -18,8 +18,8 @@ export function Projects() {
                 </h3>
         
                 <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80">
-                    <ProjectCard deploy='https://ecommerce-mh.vercel.app' repo='https://github.com/muryllohenriq/ecommerce-muryllohenriq' cover={ecommerceIcon} tag='E-Commerce' name='MH Ecommerce' skills={[SiNextdotjs, SiReact, GrStripe]} summary='Projeto de e-commerce desenvolvido com react, nextjs e sanity' shadowColor='hover:shadow-[0_0_25px_#664b42]' underlineColor='decoration-[#664b42]'/>
-                    <ProjectCard deploy='https://pokedex-gamma-pearl.vercel.app' repo='https://github.com/muryllohenriq/Pokedex' cover={pokedexIcon} tag='Web-app' name='Pokédex' skills={[SiReact, SiTypescript, SiStyledcomponents ]} summary='Projeto de pokedex desenvolvido com react' shadowColor='hover:shadow-[0_0_25px_#709972]' underlineColor='decoration-[#709972]'/>
+                    <ProjectCard deploy='https://ecommerce-mh.vercel.app' repo='https://github.com/muryllohenriq/ecommerce-muryllohenriq' cover={ecommerceIcon} tag='E-Commerce' name='MH Ecommerce' skills={[SiNextdotjs, SiReact, GrStripe]} summary='Projeto de e-commerce desenvolvido com react, nextjs, sanity e stripe' shadowColor='hover:shadow-[0_0_25px_#664b42]' underlineColor='decoration-[#664b42]'/>
+                    <ProjectCard deploy='https://pokedex-gamma-pearl.vercel.app' repo='https://github.com/muryllohenriq/Pokedex' cover={pokedexIcon} tag='Web-app' name='Pokédex' skills={[SiReact, SiTypescript, SiStyledcomponents ]} summary='Projeto de pokedex desenvolvido com react, typescript e styled-components' shadowColor='hover:shadow-[0_0_25px_#709972]' underlineColor='decoration-[#709972]'/>
                 </div>
             </motion.div>
         </>
