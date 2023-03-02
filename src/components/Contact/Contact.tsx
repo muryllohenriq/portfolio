@@ -55,13 +55,13 @@ export function Contact() {
                     className="flex flex-col space-y-1 w-fit mx-auto"
                 >
                     <div className="flex space-x-2">
-                        <input {...register('name')} placeholder="Name" className="contactInput max-[320px]:h-14" type="text" />
+                        <input {...register('name')} placeholder="Nome" className="contactInput max-[320px]:h-14" type="text" />
                         <input {...register('email')} placeholder="E-mail" className="contactInput max-[320px]:h-14" type="email" />
                     </div>
 
-                    <input {...register('subject')} placeholder="Subject" className="contactInput max-[320px]:h-14" type="text" />
+                    <input {...register('subject')} placeholder="Assunto" className="contactInput max-[320px]:h-14" type="text" />
 
-                    <textarea {...register('message')} placeholder="Message" className="contactInput resize-none max-[320px]:h-14" />
+                    <textarea {...register('message')} placeholder="Mensagem" className="contactInput resize-none max-[320px]:h-14" />
                     <button type="submit" className="bg-[#D72638] py-5 max-[428px]:py-3 max-[320px]:py-2 px-10 rounded-md text-black font-bold text-lg">Enviar</button>
                 </form>
             </div>
