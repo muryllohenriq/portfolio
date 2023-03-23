@@ -10,34 +10,34 @@ import { Testimonials } from "../../components/Testimonials/Testimonials";
 function Home() {
     return (
         <>
-            <div className="bg-[#050505] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80">
+            <div className="bg-[#050505] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80">
                 <Header />
 
-                <section id="hero" className="snap-start">
+                <section id="hero">
                     <Hero />
                 </section>
 
-                <section id="about" className="snap-center">
+                <section id="about">
                     <About />
                 </section>
 
-                <section id="experience" className="snap-center">
+                <section id="experience">
                     <Experience />
                 </section>
 
-                <section id="skills" className="snap-start">
+                <section id="skills">
                     <Skills />
                 </section>
 
-                <section id="projects" className="snap-start">
+                <section id="projects">
                     <Projects />
                 </section>
 
-                <section id="testimonials" className="snap-start">
+                <section id="testimonials">
                     <Testimonials />
                 </section>
 
-                <section id="contact" className="snap-start">
+                <section id="contact">
                     <Contact />
                 </section>
 
