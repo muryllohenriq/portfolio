@@ -10,23 +10,23 @@ export function Skills() {
             <h3 className='absolute top-20 uppercase tracking-[20px] text-[#BFBFBF] text-2xl'>Habilidades</h3>
 
             <h3 className='absolute top-32 uppercase tracking-[3px] text-[#BFBFBF] text-sm'>
-                Passe o mouse em cima de uma skill para saber a minha proficiência e o seu nome.
+                Passe o mouse em cima de uma skill para saber o meu tempo de experiência e o seu nome.
             </h3>
 
-            <div className='grid grid-cols-3 gap-8 mt-36 max-[320px]:grid-cols-4 xl:pt-24'>
-                <Skill SkillIcon={SiJavascript} level='80%' skillName='JavaScript'/>
-                <Skill SkillIcon={SiTypescript} level='70%' skillName='TypeScript'/>
-                <Skill SkillIcon={TiHtml5} level='90%' skillName='HTML'/>
-                <Skill SkillIcon={IoLogoCss3} level='90%' skillName='CSS'/>
-                <Skill SkillIcon={SiReact} level='70%' skillName='React'/>
-                <Skill SkillIcon={SiNextdotjs} level='50%' skillName='Nextjs'/>
-                <Skill SkillIcon={IoLogoVue} level='30%' skillName='Vue.js'/>
-                <Skill SkillIcon={SiRedux} level='30%' skillName='Redux'/>
-                <Skill SkillIcon={SiBootstrap} level='90%' skillName='Bootstrap'/>
-                <Skill SkillIcon={SiTailwindcss} level='90%' skillName='Tailwind css'/>
-                <Skill SkillIcon={SiStyledcomponents} level='90%' skillName='styled-components'/>
-                <Skill SkillIcon={IoLogoSass} level='80%' skillName='Sass'/>
-                <Skill SkillIcon={SiMysql} level='50%' skillName='MySQL'/>
+            <div className='grid grid-cols-4 gap-8 mt-36 max-[320px]:grid-cols-4 xl:pt-24'>
+                <Skill SkillIcon={SiJavascript} level='9 m' skillName='JavaScript'/>
+                <Skill SkillIcon={SiTypescript} level='6 m' skillName='TypeScript'/>
+                <Skill SkillIcon={TiHtml5} level='9 m' skillName='HTML'/>
+                <Skill SkillIcon={IoLogoCss3} level='9 m' skillName='CSS'/>
+                <Skill SkillIcon={SiReact} level='6 m' skillName='React'/>
+                <Skill SkillIcon={SiNextdotjs} level='3 m' skillName='Nextjs'/>
+                <Skill SkillIcon={IoLogoVue} level='6 m' skillName='Vue.js'/>
+                <Skill SkillIcon={SiRedux} level='6 m' skillName='Redux'/>
+                <Skill SkillIcon={SiBootstrap} level='6 m' skillName='Bootstrap'/>
+                <Skill SkillIcon={SiTailwindcss} level='3 m' skillName='Tailwind css'/>
+                <Skill SkillIcon={SiStyledcomponents} level='6 m' skillName='styled-components'/>
+                <Skill SkillIcon={IoLogoSass} level='6 m' skillName='Sass'/>
+                <Skill SkillIcon={SiMysql} level='6 m' skillName='MySQL'/>
             </div>
         </div>
     )

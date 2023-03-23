@@ -26,7 +26,7 @@ export function Contact() {
             </h3>
 
             <div className="flex flex-col space-y-4 mt-20">
-                <h4 className="text-3xl font-semibold text-center max-[320px]:hidden max-[360px]:text-2xl max-[360px]:w-80 max-[360px]:mx-auto">
+                <h4 className="text-2xl font-semibold text-center max-[320px]:hidden max-[360px]:text-2xl max-[360px]:w-80 max-[360px]:mx-auto">
                     Eu tenho o que você precisa.{" "}
                     <span className="decoration-[#D72638]/70 underline">
                         Vamos trocar uma ideia.

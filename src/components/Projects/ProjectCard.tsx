@@ -24,8 +24,8 @@ export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary, s
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className={`w-[270px] flex justify-center items-center flex-col m-8 p-4 rounded-[0.5rem] bg-almost-black text-BFBFBF transition-[all_0.3s_ease] cursor-pointer ${shadowColor} max-[320px]:mt-[130px]`}>
-                <div className='flex justify-center items-center w-[100%] h-[230px] relative'>
+                className={`w-[270px] flex justify-center items-center flex-col mt-20 m-8 p-4 rounded-[0.5rem] bg-almost-black text-BFBFBF transition-[all_0.3s_ease] cursor-pointer ${shadowColor} max-[320px]:mt-[130px]`}>
+                <div className='flex justify-center items-center w-[100%] h-[200px] relative'>
                     <img
                         src={cover}
                         alt=""
@@ -60,7 +60,7 @@ export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary, s
                     </motion.div>
                 </div>
 
-                <div className='p-2 w-[100%] flex justify-center items-center relative flex-col'>
+                <div className='w-[100%] flex justify-center items-center relative flex-col'>
 
                     <div className='flex justify-center items-center absolute p-[0.5rem_1rem] rounded-[10px] bg-black -top-[25px]'>
                         <p className='text-1xl'>{tag}</p>
