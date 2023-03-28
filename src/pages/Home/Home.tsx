@@ -10,7 +10,7 @@ import { Testimonials } from "../../components/Testimonials/Testimonials";
 function Home() {
     return (
         <>
-            <div className="bg-[#050505] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80">
+            <div className="bg-[#050505] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80 max-sm:scrollbar-none">
                 <Header />
 
                 <section id="hero">
