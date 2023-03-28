@@ -15,7 +15,7 @@ export function Experience() {
                 Experiência
             </h3>
 
-            <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80'>
+            <div className='w-full flex space-x-5 overflow-x-scroll p-10 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80'>
                 <ExperienceCard cover={gamaIcon} job={"Dev Full-Stack"} company={"Gama Academy"} skill="js,ts,vite,html,css,styledcomponents,bootstrap,sass,react,redux,jest,nodejs,mysql,git,github,figma" time={"22/06/2022 - 05/12/2022"} summaryPoint={["Desenvolvimento de aplicações web", "Desenvolvimento de APIs"]}/>
                 <ExperienceCard cover={duChefLogo} job={"Dev Front-End"} company={"DuChef"} skill="ts,react,redux,vite,styledcomponents,bootstrap,git" time={"01/11/2022 - o momento"} summaryPoint={["Crição de páginas", "Criação de rotas", "Conexão com API"]}/>
                 <ExperienceCard cover='https://images.pexels.com/photos/4069292/pexels-photo-4069292.jpeg?auto=compress&cs=tinysrgb&w=600' job={"Freelancer"} company={"Me, Myself and I"} skill="js,ts,vite,nextjs,html,css,tailwind,styledcomponents,bootstrap,sass,react,redux,vue,nodejs,mysql,sqlite,prisma,git,figma" time={"05/12/2022 - o momento"} summaryPoint={["Desenvolvimento de aplicações", "E-commerce", "Landing pages", 'Conexões com APIs externas']}/>
