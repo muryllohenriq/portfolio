@@ -78,7 +78,7 @@ export function ProjectCard({ deploy, repo, cover, tag, name, skills, summary, s
 
             </motion.div>
 
-            <div className="space-y-5 px-0 md:px-10 max-[320px]:pt-20 max-[428px]:hidden max-w-6xl">
+            <div className="px-0 md:px-10 max-[320px]:pt-20 max-w-6xl">
                 <p className="text-lg text-center md:text-left max-[428px]:w-80">
                     {summary}
                 </p>
