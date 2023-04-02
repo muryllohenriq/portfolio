@@ -20,13 +20,13 @@ export function Skills() {
                 <Skill SkillIcon={IoLogoCss3} level='9 m' skillName='CSS'/>
                 <Skill SkillIcon={SiReact} level='6 m' skillName='React'/>
                 <Skill SkillIcon={SiNextdotjs} level='3 m' skillName='Nextjs'/>
-                <Skill SkillIcon={IoLogoVue} level='6 m' skillName='Vue.js'/>
+                <Skill SkillIcon={IoLogoVue} level='1 m' skillName='Vue.js'/>
                 <Skill SkillIcon={SiRedux} level='6 m' skillName='Redux'/>
                 <Skill SkillIcon={SiBootstrap} level='6 m' skillName='Bootstrap'/>
                 <Skill SkillIcon={SiTailwindcss} level='3 m' skillName='Tailwind css'/>
                 <Skill SkillIcon={SiStyledcomponents} level='6 m' skillName='styled-components'/>
                 <Skill SkillIcon={IoLogoSass} level='6 m' skillName='Sass'/>
-                <Skill SkillIcon={SiMysql} level='6 m' skillName='MySQL'/>
+                <Skill SkillIcon={SiMysql} level='1 m' skillName='MySQL'/>
             </div>
         </div>
     )
