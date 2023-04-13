@@ -49,7 +49,7 @@ O react com vite eu já tinha alguma experiência, porém foi meu primeiro proje
 
 Abaixo segue um exemplo de animação dos círculos
 
-```React Component
+```js
             initial={{
                 opacity: 0,
             }}
