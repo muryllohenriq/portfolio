@@ -25,7 +25,7 @@ export function Contact() {
                 Contato
             </h3>
 
-            <div className="flex flex-col space-y-4 mt-20">
+            <div className="flex flex-col space-y-4 mt-20 max-[320px]:mt-36">
                 <h4 className="text-xl font-semibold text-center max-[320px]:hidden max-[360px]:text-2xl max-[360px]:w-80 max-[360px]:mx-auto">
                     Entre em contato, a gente pode{" "}
                     <span className="decoration-[#D72638]/70 underline">

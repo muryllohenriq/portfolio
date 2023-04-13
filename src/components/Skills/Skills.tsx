@@ -7,13 +7,13 @@ export function Skills() {
     return (
         <div 
         className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
-            <h3 className='absolute top-20 uppercase tracking-[20px] text-[#BFBFBF] text-2xl'>Habilidades</h3>
+            <h3 className='absolute top-20 uppercase tracking-[20px] max-[320px]:tracking-[16px] text-[#BFBFBF] text-2xl'>Habilidades</h3>
 
             <h3 className='absolute top-32 uppercase tracking-[3px] text-[#BFBFBF] text-sm'>
                 Passe o mouse em cima de uma skill para saber o seu nome e o meu tempo de experiência.
             </h3>
 
-            <div className='grid grid-cols-4 gap-8 mt-36 max-[320px]:grid-cols-4 xl:pt-24'>
+            <div className='grid grid-cols-4 gap-8 mt-36 max-[320px]:mt-52 xl:pt-24'>
                 <Skill SkillIcon={SiJavascript} level='9 m' skillName='JavaScript / 9 meses'/>
                 <Skill SkillIcon={SiTypescript} level='6 m' skillName='TypeScript / 6 meses'/>
                 <Skill SkillIcon={TiHtml5} level='9 m' skillName='HTML / 9 meses'/>

@@ -13,11 +13,11 @@ export function Testimonials() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
             className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-                <h3 className="absolute top-20 uppercase tracking-[20px] max-sm:tracking-[10px] text-[#BFBFBF] text-2xl">
+                <h3 className="absolute top-20 uppercase tracking-[20px] max-[320px]:tracking-[8px] max-sm:tracking-[10px] text-[#BFBFBF] text-2xl">
                     Recomendações
                 </h3>
 
-                <div className='text-center w-3/4'>
+                <div className='text-center w-3/4 max-[320px]:w-72'>
 
                     <Swiper
                         slidesPerView={1}
@@ -32,7 +32,7 @@ export function Testimonials() {
                     >
                         {depoinments.map((depoiment, i) => {
                             return (
-                                <SwiperSlide key={i} className='my-4'>
+                                <SwiperSlide key={i} className='my-4 max-[320px]:mt-44'>
                                     <p>"{depoiment}"</p>
                                 </SwiperSlide>)
                         }
