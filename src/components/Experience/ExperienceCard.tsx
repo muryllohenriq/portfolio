@@ -13,7 +13,7 @@ export function ExperienceCard({cover, job, company, skill, time, summaryPoint}:
 
   return (
     <>
-    <article className='flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[500px] h-[450px] mt-20 max-[320px]:h-[305px] md:w-[600px] md:h-[600px] xl:w-[400px] xl:h-[450px] snap-center bg-[#292929] p-6 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden overflow-y-scroll scrollbar'>
+    <article className='flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[500px] h-[450px] mt-20 max-[320px]:h-[305px] md:w-[600px] md:h-[600px] xl:w-[400px] xl:h-[450px] snap-center bg-[#292929] p-6 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden overflow-y-scroll scrollbar'>
         <motion.img 
         initial={{
             y: -100,

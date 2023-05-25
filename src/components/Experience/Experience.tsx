@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
 import { ExperienceCard } from './ExperienceCard'
+import descomplica from '../../assets/descomplica.png'
 import gamaIcon from '../../assets/gama-icon.png'
-import duChefLogo from '../../assets/duChef-logo.svg'
 import iecLogo from '../../assets/iec-logo.png'
+import duChefLogo from '../../assets/duChef-logo.svg'
 
 export function Experience() {
     return (
@@ -16,9 +17,10 @@ export function Experience() {
             </h3>
 
             <div className='w-full flex space-x-5 overflow-x-scroll p-10 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80 max-[320px]:mt-10'>
-                <ExperienceCard cover={gamaIcon} job={"Dev Full-Stack"} company={"Gama Academy"} skill="js,ts,vite,html,css,styledcomponents,bootstrap,sass,react,redux,jest,nodejs,mysql,git,github,figma" time={"06/2022 - 12/2022"} summaryPoint={["Desenvolvimento de aplicações web", "Desenvolvimento de APIs"]}/>
-                <ExperienceCard cover={duChefLogo} job={"Dev Front-End"} company={"DuChef"} skill="ts,react,redux,vite,styledcomponents,bootstrap,git" time={"11/2022 - o momento"} summaryPoint={["Crição da aplicação web", "Conexão com o banco de dados", "Conexão com API"]}/>
-                <ExperienceCard cover='https://images.pexels.com/photos/4069292/pexels-photo-4069292.jpeg?auto=compress&cs=tinysrgb&w=600' job={"Freelancer"} company={"Autônomo"} skill="js,ts,vite,nextjs,html,css,tailwind,styledcomponents,bootstrap,sass,react,redux,vue,nodejs,mysql,sqlite,prisma,git,figma" time={"12/2022 - o momento"} summaryPoint={["Desenvolvimento de aplicações web", "E-commerces", "Landing pages", 'Conexões com APIs', "Criação de APIs"]}/>
+                <ExperienceCard cover={descomplica} job={"Ciência da Computação"} company={"Faculdade Descomplica"} skill="java" time={"04/2023 - O momento"} summaryPoint={["Análise e Levantamento de Requisitos de Software", "Criação de Aplicações e Sistemas"]}/>
+                <ExperienceCard cover={gamaIcon} job={"Dev Full-Stack"} company={"Gama Academy"} skill="js,ts,vite,html,css,styledcomponents,bootstrap,sass,react,redux,jest,nodejs,express,mysql,git,github,figma" time={"06/2022 - 12/2022"} summaryPoint={["Desenvolvimento de aplicações web", "Desenvolvimento de APIs"]}/>
+                {/* <ExperienceCard cover={duChefLogo} job={"Dev Front-End"} company={"DuChef"} skill="ts,react,redux,vite,styledcomponents,bootstrap,git" time={"11/2022 - o momento"} summaryPoint={["Crição da aplicação web", "Conexão com o banco de dados", "Conexão com API"]}/> */}
+                <ExperienceCard cover='https://images.pexels.com/photos/4069292/pexels-photo-4069292.jpeg?auto=compress&cs=tinysrgb&w=600' job={"Dev Full-Stack"} company={"Freelancer"} skill="js,ts,nextjs,html,css,tailwind,styledcomponents,bootstrap,sass,react,redux,nodejs,git,figma" time={"12/2022 - o momento"} summaryPoint={["Desenvolvimento de aplicações web", "E-commerces", "Landing pages", 'Conexões com APIs', "Criação de APIs"]}/>
                 <ExperienceCard cover={iecLogo} job={"Voluntário"} company={"IEC"} skill="ts,vite,react,styledcomponents,git" time={"12/2022 - 05/2023"} summaryPoint={["Desenvolvimento e estilização de páginas estáticas"]}/>
             </div>
         </motion.div>
