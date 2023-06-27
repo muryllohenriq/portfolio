@@ -33,7 +33,7 @@ export function ExperienceCard({cover, job, company, skill, time, summaryPoint}:
             </div>
             <p className='uppercase py-2 text-gray-300'>{time}</p>
 
-            <ul className='list-disc space-y-2 text-lg max-h-96'>
+            <ul className='list-disc space-y-2 text-lg max-h-96 pr-4'>
             {summaryPoint.map((item, i) => {
                return <li key={item}>{summaryPoint[i]}</li>
             })}
