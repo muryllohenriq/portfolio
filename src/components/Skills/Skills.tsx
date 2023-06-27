@@ -1,4 +1,4 @@
-import { SiJavascript, SiReact, SiTypescript, SiTailwindcss, SiBootstrap, SiRedux, SiMysql, SiStyledcomponents, SiNextdotjs } from 'react-icons/si'
+import { SiJavascript, SiReact, SiTypescript, SiTailwindcss, SiBootstrap, SiRedux, SiMysql, SiStyledcomponents, SiNextdotjs, SiAmazonaws } from 'react-icons/si'
 import { IoLogoVue, IoLogoCss3, IoLogoSass } from 'react-icons/io5';
 import { TiHtml5 } from 'react-icons/ti';
 import { Skill } from './Skill'
@@ -27,6 +27,7 @@ export function Skills() {
                 <Skill SkillIcon={SiStyledcomponents} level='6 m' skillName='styled-components / 6 meses'/>
                 <Skill SkillIcon={IoLogoSass} level='3 m' skillName='Sass / 3 meses'/>
                 <Skill SkillIcon={SiMysql} level='1 m' skillName='MySQL / 1 mês'/>
+                <Skill SkillIcon={SiAmazonaws} level='2 m' skillName='AWS / 2 meses'/>
             </div>
         </div>
     )
