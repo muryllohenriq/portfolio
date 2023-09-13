@@ -30,10 +30,10 @@ export function About() {
             <div className='space-y-5 px-0 md:px-10 xl:-mt-40 max-[320px]:pt-52'>
                 <h4 className='text-2xl max-[360px]:text-xl font-semibold'>Um <span className='underline decoration-[#D72638]/70'>pouco</span> sobre mim</h4>
                 <p className='text-base text-justify max-sm:hidden md:w-96 md:h-40 xl:w-4/5'>
-                    Olá, meu nome é Muryllo, tenho 20 anos e sou Desenvolvedor júnior Full-Stack. Comecei minha carreira em 2022, mais precisamente em maio quando comecei a estudar programação por conta própria, logo após entrei em um bootcamp de formação em Desenvolvimento Web Full-Stack, foi aí que conheci mais tecnologias e também pude participar de diversos projetos sozinho e em grupo, com pessoas que assim como eu buscavam se profissionalizar nessa área, aprimorei minhas soft skills como também desenvolvi as hards me especializando nas tecnologias. Ao longo dessa jornada decidi seguir carreira como Desenvolvedor Full-Stack, onde agora trabalho como freelancer, criando sites e aplicações web como landing pages, e-commerces e também APIs restful. Iniciei também no ano de 2023 uma graduação em Ciência da Computação para auxiliar nos meus estudos e na minha base na programação, e também um curso especializado em computação em nuvem, mais precisamente AWS buscando minha primeira certificação. Espero poder te ajudar com tudo que sei até aqui e ainda posso aprender.
+                    Olá, meu nome é Muryllo, tenho 20 anos e sou Desenvolvedor Full-Stack. Já passei por um bootcamp em formação web full-stack e pelo AWS re/Start que me ajudou a conseguir a certificação Cloud Practitioner da AWS. Atualmente trabalho como Desenvolvedor Full-Stack na BEES e curso Ciência da Computação.
                 </p>
                 <p className='text-base sm:hidden text-justify'>
-                    Olá, meu nome é Muryllo, tenho 20 anos e sou Desenvolvedor júnior Full-Stack. Já passei por um bootcamp em Desenvolvimento Web Full-Stack e atualmente curso Ciência da Computação e estudo AWS buscando a minha primeira certificação.
+                    Olá, meu nome é Muryllo, tenho 20 anos e sou Desenvolvedor júnior Full-Stack. Atualmente trabalho como Dev Full-Stack na BEES.
                 </p>
             </div>
         </motion.div>
