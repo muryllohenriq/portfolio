@@ -19,7 +19,7 @@ export function Experience() {
             </h3>
 
             <div className='w-full flex space-x-5 overflow-x-scroll p-10 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#fafafa]/80 max-[320px]:mt-10'>
-                <ExperienceCard cover={abinbev} job={"Dev Full-Stack"} company={"BEES"} skill="react,typescript" time={"09/2023 - O momento"} summaryPoint={["", ""]}/>
+                <ExperienceCard cover={abinbev} job={"Dev Full-Stack"} company={"BEES"} skill="react,typescript" time={"09/2023 - O momento"} summaryPoint={["Criação e manutenção de aplicação React", "Criação de documentações"]}/>
                 <ExperienceCard cover={descomplica} job={"Ciência da Computação"} company={"Faculdade Descomplica"} skill="java" time={"04/2023 - O momento"} summaryPoint={["Análise e Levantamento de Requisitos de Software", "Criação de Aplicações e Sistemas"]}/>
                 <ExperienceCard cover={aws} job={"AWS re/Start"} company={"Escola da Nuvem"} skill="aws" time={"05/2023 - 07/2023"} summaryPoint={["Treinamento e desenvolvimento para carreira na nuvem", "Conteúdo teórico e laboratórios práticos"]}/>
                 <ExperienceCard cover={gamaIcon} job={"Dev Full-Stack"} company={"Gama Academy"} skill="js,ts,vite,html,css,styledcomponents,bootstrap,sass,react,redux,jest,nodejs,express,mysql,git,github,figma" time={"06/2022 - 12/2022"} summaryPoint={["Desenvolvimento de aplicações web", "Desenvolvimento de APIs"]}/>

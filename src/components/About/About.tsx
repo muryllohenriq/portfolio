@@ -30,10 +30,10 @@ export function About() {
             <div className='space-y-5 px-0 md:px-10 xl:-mt-40 max-[320px]:pt-52'>
                 <h4 className='text-2xl max-[360px]:text-xl font-semibold'>Um <span className='underline decoration-[#D72638]/70'>pouco</span> sobre mim</h4>
                 <p className='text-base text-justify max-sm:hidden md:w-96 md:h-40 xl:w-4/5'>
-                    Olá, meu nome é Muryllo, tenho 20 anos e sou Desenvolvedor Full-Stack. Já passei por um bootcamp em formação web full-stack e pelo AWS re/Start que me ajudou a conseguir a certificação Cloud Practitioner da AWS. Atualmente trabalho como Desenvolvedor Full-Stack na BEES e curso Ciência da Computação.
+                    Olá, meu nome é Muryllo, tenho 22 anos e sou Desenvolvedor Full-Stack. Já passei por um bootcamp em formação web full-stack e pelo AWS re/Start que me ajudou a conseguir a certificação Cloud Practitioner da AWS. Atualmente trabalho como Desenvolvedor Full-Stack na BEES e curso Ciência da Computação.
                 </p>
                 <p className='text-base sm:hidden text-justify'>
-                    Olá, meu nome é Muryllo, tenho 20 anos e sou Desenvolvedor júnior Full-Stack. Atualmente trabalho como Dev Full-Stack na BEES.
+                    Olá, meu nome é Muryllo, tenho 22 anos e sou Desenvolvedor júnior Full-Stack. Atualmente trabalho como Dev Full-Stack na BEES.
                 </p>
             </div>
         </motion.div>
